@@ -46,6 +46,10 @@ namespace _2020002309_方泽楠_学生管理
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.labR = new System.Windows.Forms.Label();
             this.btnUp = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.gBC.SuspendLayout();
             this.gBD.SuspendLayout();
             this.gBR.SuspendLayout();
@@ -73,7 +77,7 @@ namespace _2020002309_方泽楠_学生管理
             // labId
             // 
             this.labId.AutoSize = true;
-            this.labId.Location = new System.Drawing.Point(295, 86);
+            this.labId.Location = new System.Drawing.Point(317, 69);
             this.labId.Name = "labId";
             this.labId.Size = new System.Drawing.Size(97, 15);
             this.labId.TabIndex = 3;
@@ -81,6 +85,8 @@ namespace _2020002309_方泽楠_学生管理
             // 
             // gBC
             // 
+            this.gBC.Controls.Add(this.label4);
+            this.gBC.Controls.Add(this.label1);
             this.gBC.Controls.Add(this.btnC);
             this.gBC.Controls.Add(this.textBox2);
             this.gBC.Controls.Add(this.textBox1);
@@ -104,7 +110,7 @@ namespace _2020002309_方泽楠_学生管理
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(160, 50);
+            this.textBox2.Location = new System.Drawing.Point(175, 50);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 25);
             this.textBox2.TabIndex = 14;
@@ -212,11 +218,49 @@ namespace _2020002309_方泽楠_学生管理
             this.btnUp.UseVisualStyleBackColor = true;
             this.btnUp.Click += new System.EventHandler(this.btnUp_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 36);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 15);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "name";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(288, 86);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(23, 15);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "xh";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(357, 86);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(39, 15);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "name";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(151, 36);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(23, 15);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "xh";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(971, 481);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btnUp);
             this.Controls.Add(this.gBR);
             this.Controls.Add(this.gBD);
@@ -225,7 +269,7 @@ namespace _2020002309_方泽楠_学生管理
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnDown);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "学生管理";
             this.gBC.ResumeLayout(false);
             this.gBC.PerformLayout();
             this.gBD.ResumeLayout(false);
@@ -255,7 +299,10 @@ namespace _2020002309_方泽楠_学生管理
         private System.Windows.Forms.Button btnR;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label labR;
-        
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
