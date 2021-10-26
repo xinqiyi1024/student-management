@@ -76,7 +76,7 @@ namespace _2020002309_方泽楠_学生管理
 
         private void btnR_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("姓名为" + (str.Split(',')[int.Parse(textBox4.Text) - 1]) + "学号为" + s1.findI(int.Parse(textBox4.Text)), "查询位置" + int.Parse(textBox4.Text), MessageBoxButtons.OKCancel);
+            MessageBox.Show("姓名为" + listBox1.Items[int.Parse(textBox4.Text) - 1].ToString().Replace("         ", ",").Split(',')[1] + "学号为" + listBox1.Items[int.Parse(textBox4.Text) - 1].ToString().Replace("         ", ",").Split(',')[0], "查询位置" + int.Parse(textBox4.Text), MessageBoxButtons.OKCancel);
         }
     }
 }
